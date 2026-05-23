@@ -1,0 +1,183 @@
+{
+    "security": {
+        "hostile_input_detected": true,
+        "message": "HOSTILE INPUT DETECTED: XSS, SQL injection, or JS URL found. Suspicious lines were stripped before extraction."
+    },
+    "data": {
+        "emails": [
+            {
+                "address": "admissions@alueducation.com",
+                "masked": "ad***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "john.mugisha@alumni.alueducation.com",
+                "masked": "jo***@alumni.alueducation.com",
+                "category": "ALU Alumni"
+            },
+            {
+                "address": "grace.otieno@si.alueducation.com",
+                "masked": "gr***@si.alueducation.com",
+                "category": "ALU SI"
+            },
+            {
+                "address": "support@alueducation.com",
+                "masked": "su***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "amara.diallo@alumni.alueducation.com",
+                "masked": "am***@alumni.alueducation.com",
+                "category": "ALU Alumni"
+            },
+            {
+                "address": "kofi.mensah@gmail.com",
+                "masked": "ko***@gmail.com",
+                "category": "External"
+            },
+            {
+                "address": "lena.schmidt@student.berlin.edu",
+                "masked": "le***@student.berlin.edu",
+                "category": "External"
+            },
+            {
+                "address": "billing@alueducation.com",
+                "masked": "bi***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "kwame.asante@alumni.alueducation.com",
+                "masked": "kw***@alumni.alueducation.com",
+                "category": "ALU Alumni"
+            },
+            {
+                "address": "finance@alueducation.com",
+                "masked": "fi***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "it.helpdesk@si.alueducation.com",
+                "masked": "it***@si.alueducation.com",
+                "category": "ALU SI"
+            },
+            {
+                "address": "all-staff@alueducation.com",
+                "masked": "al***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "samuel.bello@alueducation.com",
+                "masked": "sa***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "priya.sharma@si.alueducation.com",
+                "masked": "pr***@si.alueducation.com",
+                "category": "ALU SI"
+            },
+            {
+                "address": "david.okonkwo@alumni.alueducation.com",
+                "masked": "da***@alumni.alueducation.com",
+                "category": "ALU Alumni"
+            },
+            {
+                "address": "security-ops@cloudflare.com",
+                "masked": "se***@cloudflare.com",
+                "category": "External"
+            },
+            {
+                "address": "career.services@alueducation.com",
+                "masked": "ca***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "miriam.wanjiku@alumni.alueducation.com",
+                "masked": "mi***@alumni.alueducation.com",
+                "category": "ALU Alumni"
+            },
+            {
+                "address": "events@alueducation.com",
+                "masked": "ev***@alueducation.com",
+                "category": "ALU Official"
+            },
+            {
+                "address": "jobs@techbridge-africa.org",
+                "masked": "jo***@techbridge-africa.org",
+                "category": "External"
+            }
+        ],
+        "credit_cards": {
+            "valid": [
+                {
+                    "masked": "**** **** **** 1111",
+                    "note": "Raw PAN suppressed — PCI-DSS compliant"
+                },
+                {
+                    "masked": "**** **** **** 0004",
+                    "note": "Raw PAN suppressed — PCI-DSS compliant"
+                },
+                {
+                    "masked": "**** **** **** 1881",
+                    "note": "Raw PAN suppressed — PCI-DSS compliant"
+                },
+                {
+                    "masked": "**** **** **** 8431",
+                    "note": "Raw PAN suppressed — PCI-DSS compliant"
+                }
+            ],
+            "invalid": [
+                {
+                    "masked": "**** **** **** 9999",
+                    "reason": "Failed Luhn checksum"
+                }
+            ]
+        },
+        "urls": [
+            {
+                "url": "https://portal.alueducation.com/scholarships/renew?id=1042&token=abc123"
+            },
+            {
+                "url": "http://my.alueducation.com"
+            },
+            {
+                "url": "https://billing.alueducation.com/pay?student=kwame.asante&amount=1500"
+            },
+            {
+                "url": "https://careers.alueducation.com/fair2024?ref=email&src=alumni"
+            },
+            {
+                "url": "https://linkedin.com/company/alueducation"
+            }
+        ],
+        "phone_numbers": [
+            {
+                "number": "+250 788 123 456"
+            },
+            {
+                "number": "+250-789-000-111"
+            },
+            {
+                "number": "+49 30 1234 5678"
+            },
+            {
+                "number": "+250 788 999 000"
+            },
+            {
+                "number": "+250 252 580 900"
+            },
+            {
+                "number": "+1 650 319 8930"
+            },
+            {
+                "number": "+254 700 123 456"
+            }
+        ]
+    },
+    "summary": {
+        "emails_found": 20,
+        "credit_cards": 4,
+        "invalid_cards": 1,
+        "urls_found": 5,
+        "phone_numbers": 7
+    }
+}

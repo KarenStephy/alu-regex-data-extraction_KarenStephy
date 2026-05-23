@@ -1,0 +1,109 @@
+========================================
+ ALU SUPPORT TICKET SYSTEM — CRM EXPORT
+ Generated: 2024-10-01 | INTERNAL USE
+========================================
+
+--- TICKET #1042 ---
+From:    admissions@alueducation.com
+To:      john.mugisha@alumni.alueducation.com
+Subject: Scholarship Renewal
+Date:    2024-10-01 09:30:00
+
+Hi John, your scholarship renewal application has been reviewed. Please visit
+https://portal.alueducation.com/scholarships/renew?id=1042&token=abc123
+for next steps. If you have questions, reach Admissions at +250 788 123 456
+or call our Kigali office at +250-789-000-111.
+
+Payment reference: Card ending 4111-1111-1111-1111 has been flagged — do NOT
+process. Please use the approved payment method on file.
+
+Sent at 9:30 AM | Priority: HIGH
+#ScholarshipRenewal #ALU2024
+
+
+--- TICKET #1043 ---
+From:    grace.otieno@si.alueducation.com
+To:      support@alueducation.com
+Subject: Campus portal login issue
+
+The student portal at http://my.alueducation.com is returning a 503 error.
+Students affected include:
+  - amara.diallo@alumni.alueducation.com   (Rwanda campus)
+  - kofi.mensah@gmail.com                 (External applicant)
+  - lena.schmidt@student.berlin.edu       (Exchange partner)
+
+Please escalate to IT. Contact Grace at +49 30 1234 5678 (Berlin desk) or
+her direct line: +250 788 999 000.
+
+Reported time: 11:15 AM | Status: open
+#BugReport #PortalDown
+
+
+--- TICKET #1044 ---
+From:    billing@alueducation.com
+To:      kwame.asante@alumni.alueducation.com
+Subject: Outstanding Balance — Payment Required
+
+Dear Kwame, your account shows an outstanding balance. Please settle via:
+https://billing.alueducation.com/pay?student=kwame.asante&amount=1500
+
+Accepted cards on file:
+  Primary:  5500-0000-0000-0004   (Mastercard — verified)
+  Backup:   4012 8888 8888 1881   (Visa — verified)
+  Expired:  9999-9999-9999-9999   (INVALID — do not use)
+
+For queries contact: finance@alueducation.com or +250 252 580 900.
+
+Sent at 2:45 PM | Priority: MEDIUM
+#Billing #ALUFinance
+
+
+--- TICKET #1045 ---
+From:    it.helpdesk@si.alueducation.com
+To:      all-staff@alueducation.com
+Subject: Security Incident Report — Hostile Input Detected
+
+Our WAF intercepted the following malicious submissions today:
+
+  [BLOCKED] <script>alert('XSS')</script>
+  [BLOCKED] javascript:void(document.cookie)
+  [BLOCKED] ' OR '1'='1'; DROP TABLE students;--
+  [BLOCKED] DELETE FROM users WHERE 1=1;--
+  [BLOCKED] admin@@gmail..com              (malformed email)
+  [BLOCKED] fake@fake                      (invalid TLD)
+
+None of the above were processed. All flagged entries quarantined.
+
+Legitimate contacts on this ticket:
+  IT Lead:    samuel.bello@alueducation.com
+  SI Coord:   priya.sharma@si.alueducation.com
+  Alumni Rep: david.okonkwo@alumni.alueducation.com
+
+External vendor: security-ops@cloudflare.com | +1 650 319 8930
+
+Incident logged at: 4:00 PM (16:00 UTC)
+#SecurityAlert #WAF #ALUTechOps
+
+
+--- TICKET #1046 ---
+From:    career.services@alueducation.com
+To:      miriam.wanjiku@alumni.alueducation.com
+Subject: Job Fair — Registration Confirmation
+
+Hi Miriam! You are confirmed for the ALU Career Fair 2024.
+Details at: https://careers.alueducation.com/fair2024?ref=email&src=alumni
+
+Additional contacts for the event:
+  Organiser:  events@alueducation.com
+  LinkedIn:   https://linkedin.com/company/alueducation
+  Partner co: jobs@techbridge-africa.org | +254 700 123 456
+
+Your registered card for the fee: 3714 496353 98431  (Amex — verified)
+
+Event starts at 10:00 AM. Doors open at 9:00 AM.
+Last entry: 3:30 PM.
+
+#CareerFair #ALUAlumni #Networking2024
+
+
+ END OF EXPORT — 5 TICKETS TOTAL
